@@ -4,7 +4,7 @@ On the HPC, create a conda environment using the cloned "requirements.txt" file 
 conda create --name <env_name> --file requirements.txt
 
 List your conda environments:
-conda list env
+conda env list
 
 Near the bottom of the list you should see the path to your new conda env.
 Activate that env: conda activate /home/<username>/.conda/envs/<env_name>
