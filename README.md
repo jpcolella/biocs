@@ -7,7 +7,8 @@ List your conda environments:
 conda env list
 
 Near the bottom of the list you should see the path to your new conda env.
-Activate that env: conda activate /home/<username>/.conda/envs/<env_name>
+Activate that env:
+conda activate /home/<username>/.conda/envs/<env_name>
 
 Then execute the scatter.py code in that directory.
 As long as x-forwarding is enabled, it should show a plot!
